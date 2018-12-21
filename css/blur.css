@@ -1,0 +1,25 @@
+.blur-image{
+  width: 577px;
+  height: 360px;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow: hidden;
+  
+}
+.blur-image img{
+  filter: blur(10px);
+}
+#canvas{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 10;
+}
